@@ -1,0 +1,23 @@
+.aboutus-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutus-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 1rem;
+  width: 80%;
+  background-color: red;
+}
+
+.inner-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: yellow;
+  justify-content: center;
+}
