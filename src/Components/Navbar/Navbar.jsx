@@ -10,14 +10,13 @@ const NavbarMenu = () => {
 
 
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="navbar-bground" style={{display: 'flex', alignItems: "flex-start", paddingTop: "0"}}>
       <Container fluid>
         <Navbar.Brand href="#"><img src="/1O_Logo_Draft2.png" alt="logo" width={'100px'}/></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
             className="me-auto my-2 my-lg-0"
-            style={{ maxHeight: '100px' }}
             navbarScroll
           >
             <Nav.Link href="#action1">HOME</Nav.Link>

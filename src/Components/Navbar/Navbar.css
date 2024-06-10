@@ -1,4 +1,4 @@
-.bg-body-tertiary {
+.navbar-bground {
   background-color: red !important;
   background-image: url('C:\Users\h.mourtada\Desktop\Dev\1office\public\IMG_0447.JPG');
   background-size: cover;
@@ -11,5 +11,5 @@
 
 .navbar .container-fluid {
   background-color: hsla(0, 0%, 90%, 0.9);
-  margin-top: -0.48rem;
+  padding: 0.5rem;
 }
