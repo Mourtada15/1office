@@ -12,3 +12,21 @@
   background-color: hsla(0, 0%, 90%, 0.9);
   padding: 0.5rem;
 }
+
+.navbar-bground a:hover {
+  color: #2f3f92;
+}
+
+.navbar {
+  --bs-navbar-active-color: #2f3f92 !important;
+}
+
+.me-2:focus {
+  text-shadow: none;
+  border: unset;
+}
+
+.navbar-bground button{
+  background-color: #2f3f92;
+  border: none;
+}

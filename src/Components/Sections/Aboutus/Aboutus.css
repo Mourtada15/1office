@@ -13,7 +13,12 @@
 }
 
 .aboutus-container img {
+  transition: all 0.2s ease-in-out;
   width: 100px;
+}
+.aboutus-container img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 .aboutus-container div {
@@ -22,4 +27,14 @@
   justify-content: center;
   align-items: center;
   gap: 1rem;
+}
+
+.aboutus-container h5 {
+  transition: all 0.2s ease-in-out;
+}
+
+.aboutus-container h5:hover {
+  color: #2f3f92;
+  cursor: pointer;
+  transform: scale(1.1);
 }

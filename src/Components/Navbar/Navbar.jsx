@@ -42,7 +42,7 @@ const NavbarMenu = () => {
               className="me-2"
               aria-label="Search"
             />
-            <Button variant="outline-success">Search</Button>
+            <Button className="navbar-search-button">Search</Button>
           </Form>
         </Navbar.Collapse>
       </Container>

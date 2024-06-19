@@ -26,14 +26,6 @@
   width: 30px;
   height: 30px;
 }
-.footer-social-icons svg {
-  transition: all 0.2s ease-in-out;
-  width: 30px;
-  height: 30px;
-}
-.footer-social-icons svg:hover {
-  transform: scale(1.1);
-}
 .footer-social-icons img:hover {
   transform: scale(1.1);
 }
@@ -52,9 +44,11 @@
   text-decoration: none;
   color: inherit;
   transition: all 0.2s ease-in-out;
+  /* display: inline-block; */
 }
 .footer-about-us a:hover {
-  color: #E07F17;
+  color: #00FFFF;
+  /* transform: scale(1.1); */
 }
 
 .footer-social {
