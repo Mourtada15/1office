@@ -7,7 +7,9 @@ function App() {
   return (
     <div className="App-wrapper">
       <Navbar />
-      <Aboutus />
+      <div className='app-wrapper-body'>
+        <Aboutus />
+      </div>
       <Footer />
     </div>
   );

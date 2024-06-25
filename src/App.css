@@ -1,6 +1,10 @@
 .App-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
-  margin-bottom: 2rem;
+  gap: 3rem;
+}
+
+.app-wrapper-body {
+  width: 70%;
+  margin: auto;
 }
