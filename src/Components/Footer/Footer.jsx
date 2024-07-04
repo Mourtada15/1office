@@ -19,10 +19,10 @@ const Footer = () => {
           <h5><b>Stay Connected</b></h5>
           <div className="footer-social-icons">
             <a href="https://www.linkedin.com/company/65342769" target="_blank"><img src="linkedin_6422202.svg" alt="linkedinIcon" /></a>
-            <a href="" target="_blank"><img src="twitter-alt-circle_12107562.svg" alt="twitterIcon" /></a>
+            {/* <a href="" target="_blank"><img src="twitter-alt-circle_12107562.svg" alt="twitterIcon" /></a> */}
             <a href="https://www.facebook.com/oneoffice1O" target="_blank"><img src="facebook_6422199.svg" alt="facebookIcon" /></a>
             <a href="" target="_blank"><img src="instagram_6422200.svg" alt="instagramIcon" /></a>
-            <a href="" target="_blank"><img src="youtube_6422215.svg" alt="youtubeIcon" /></a>
+            {/* <a href="" target="_blank"><img src="youtube_6422215.svg" alt="youtubeIcon" /></a> */}
           </div>
         </div>
       </div>

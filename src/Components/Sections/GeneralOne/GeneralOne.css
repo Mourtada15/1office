@@ -1,0 +1,7 @@
+.general-one-wrapper {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 4rem;
+    color: rgb(47, 63, 146);
+}

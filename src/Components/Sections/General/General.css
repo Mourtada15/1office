@@ -1,0 +1,30 @@
+.general-wrapper {
+    background-color: rgb(234, 236, 244);
+}
+
+.general-inner-wrapper {
+    width: 90%;
+    margin: auto;
+    padding: 4rem 0 4rem 0;
+    /* color: rgb(47, 63, 146); */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.general-inner-wrapper img {
+    max-width: 20px;
+    height: 24px;
+    margin-left: 1rem;
+}
+
+.general-inner-wrapper h5 {
+    display: inline-block;
+    margin: 0 0 0 0.4rem;
+}
+
+.fucking-test {
+    display: flex;
+    flex-direction: row;
+}

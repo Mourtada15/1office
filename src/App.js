@@ -1,8 +1,10 @@
+import { Carousel } from 'bootstrap';
 import './App.css';
 import Footer from './Components/Footer/Footer';
 import Navbar from './Components/Navbar/Navbar';
 import Aboutus from './Components/Sections/Aboutus/Aboutus';
-import Packages from './Components/Sections/Packages/Packages';
+import General from './Components/Sections/General/General';
+import GeneralOne from './Components/Sections/GeneralOne/GeneralOne';
 
 function App() {
   return (
@@ -11,7 +13,8 @@ function App() {
       <div className='app-wrapper-body'>
         <Aboutus />
       </div>
-      <Packages />
+      <General />
+      <GeneralOne />
       <Footer />
     </div>
   );
