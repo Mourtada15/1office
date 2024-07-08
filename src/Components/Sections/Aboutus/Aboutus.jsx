@@ -10,32 +10,32 @@ const Aboutus = () => {
       </div>
 
       <div className="aboutus-container">
-        <div>
+        <div style={{width: "150px", height: "150px"}}>
           <img src="digital-assistant.png" alt="" />
           <h5>Virtual Office</h5>
         </div>
 
-        <div>
+        <div style={{width: "150px", height: "150px"}}>
           <img src="workspace.png" alt="" />
           <h5>Dedicated Desk</h5>
         </div>
 
-        <div>
+        <div style={{width: "150px", height: "150px"}}>
           <img src="idea.png" alt="" />
           <h5>Startup</h5>
         </div>
 
-        <div>
+        <div style={{width: "150px", height: "150px"}}>
           <img src="startup.png" alt="" />
           <h5>Startup+</h5>
         </div>
 
-        <div>
+        <div style={{width: "150px", height: "150px"}}>
           <img src="briefcase.png" alt="" />
           <h5>Small Business</h5>
         </div>
 
-        <div>
+        <div style={{width: "150px", height: "150px"}}>
           <img src="graph.png" alt="" />
           <h5>Small Business+</h5>
         </div>

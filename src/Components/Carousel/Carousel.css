@@ -1,14 +1,27 @@
 .carousel {
-    /* height: calc(100vh - 380px); */
-    width: 85%;
-    margin: auto;
-    /* background-color: red; */
+  /* height: calc(100vh - 380px); */
+  width: 85%;
+  margin: auto;
+  background-color: red;
+}
+
+.d-block {
+  height: 50vh;
+}
+
+.carousel-item img {
+  object-fit: fill;
+}
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .carousel {
+    width: 100%;
   }
-  
-  .d-block{
-    height: 57vh;
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+  .carousel button {
+    display: none;
   }
-  
-  .carousel-item img {
-    object-fit: fill;
-  }
+}
