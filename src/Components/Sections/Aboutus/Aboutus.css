@@ -21,12 +21,14 @@
   transform: scale(1.1);
 }
 
-.aboutus-container div {
+.aboutus-container a {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  text-decoration: none;
+  color: inherit;
 }
 
 .aboutus-container h5 {

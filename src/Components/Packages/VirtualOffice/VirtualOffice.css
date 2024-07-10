@@ -1,0 +1,17 @@
+.virtual-office-wrapper {
+    /* height: 74vh; */
+    width: 80%;
+    margin: auto;
+    padding: 2rem 0 2rem 0;
+    color: #2f3f92;
+}
+
+.navbar-bground-vo {
+    background-image: unset;
+    height: unset; 
+  }
+
+  .tizz {
+   display: flex;
+   align-items: end;
+  }

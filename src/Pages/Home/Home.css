@@ -1,0 +1,10 @@
+.App-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.app-wrapper-body {
+    width: 70%;
+    margin: auto;
+}
