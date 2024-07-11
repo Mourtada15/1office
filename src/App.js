@@ -8,9 +8,12 @@ import StartUpPlus from './Components/Packages/StartupPlus/StartupPlus';
 import SmallBusiness from './Components/Packages/SmallBusiness/SmallBusiness';
 import SmallBusinessPlus from './Components/Packages/SmallBusinessPlus/SmallBusinessPlus';
 import AOS from 'aos';
+import ContactUs from './Pages/ContactUs/ContactUs';
+import emailjs from 'emailjs-com';
 
 function App() {
   AOS.init();
+  emailjs.init('KtvbtfVSIePHjDZjf');
 
   return (
     <Router>
@@ -22,6 +25,7 @@ function App() {
         <Route path="/startupplus" element={<StartUpPlus />} />
         <Route path="/smallbusiness" element={<SmallBusiness />} />
         <Route path="/smallbusinessplus" element={<SmallBusinessPlus />} />
+        <Route path="/contactus" element={<ContactUs />} />
       </Routes>
     </Router>
   );
