@@ -41,7 +41,7 @@ const DedicatedDesk = () => {
           <h5>For more details!</h5>
           <div className=" d-flex gap-4">
             <a href="https://wa.me/+96170100094"><img style={{ width: "40px" }} src="whatsapp.png" alt="" /></a>
-            <a href="mailto:info@oneoffice.world"><img style={{ width: "40px" }} src="email.png" alt="" /></a>
+            <a href="mailto:info@1office.space"><img style={{ width: "40px" }} src="email.png" alt="" /></a>
           </div>
         </div>
 

@@ -15,7 +15,7 @@ const NavbarMenu = () => {
   return (
     <Navbar expand="lg" className={pathname === '/' ? "navbar-bground" : "navbar-bground-vo"} style={{display: 'flex', alignItems: "flex-start", paddingTop: "0"}} >
       <Container fluid>
-        <Navbar.Brand href="#"><img src="/1O_Logo_Draft2.png" alt="logo" width={'100px'}/></Navbar.Brand>
+        <Navbar.Brand href="/"><img src="/1O_Logo_Draft2.png" alt="logo" width={'100px'}/></Navbar.Brand>
         <Navbar.Toggle style={{backgroundColor: "unset"}} aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
