@@ -7,8 +7,11 @@ import StartUp from './Components/Packages/Startup/Startup';
 import StartUpPlus from './Components/Packages/StartupPlus/StartupPlus';
 import SmallBusiness from './Components/Packages/SmallBusiness/SmallBusiness';
 import SmallBusinessPlus from './Components/Packages/SmallBusinessPlus/SmallBusinessPlus';
+import AOS from 'aos';
 
 function App() {
+  AOS.init();
+
   return (
     <Router>
       <Routes>

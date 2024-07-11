@@ -8,7 +8,7 @@ const SmallBusiness = () => {
     <>
       <Navbar />
       <div className="virtual-office-wrapper d-flex flex-column gap-4">
-        <div className="d-flex flex-column gap-2" style={{ width: "50%", margin: "auto" }} >
+        <div className="d-flex flex-column gap-2 virtual-office-wrapper-inner" style={{ width: "50%", margin: "auto" }} data-aos="zoom-in-up">
           <h1>Small Business</h1>
           <p>In case you are a small company and wishing to operate hassle-free and not bother yourself with overhead costs and municipality fees as
             well as other legal and monthly bills, 1Office provides you with the best possible solution to ensure that you remain fully focused on your
@@ -36,12 +36,12 @@ const SmallBusiness = () => {
             <li>Pay as you go as we shall receive payment monthly per each month of use. By doing so, we shall be assisting your start-up since we 
             know and appreciate that each penny counts and hence, we shall not require 6 months or 1-year advanced payment</li>
           </ul>
-          <h4>The Package is at US$ 1,400.00 per month</h4>
+          <h4>The Package is at $1,400 per month</h4>
 
         </div>
 
-        <div className="d-flex flex-column gap-2 tizz">
-          <h5>Reserve your place now!</h5>
+        <div className="d-flex flex-column gap-2 vo-info">
+          <h5>For more details!</h5>
           <div className=" d-flex gap-4">
             <a href="https://wa.me/+96170100094"><img style={{ width: "40px" }} src="whatsapp.png" alt="" /></a>
             <a href="mailto:info@oneoffice.world"><img style={{ width: "40px" }} src="email.png" alt="" /></a>

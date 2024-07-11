@@ -11,33 +11,33 @@ const Aboutus = () => {
           At 1O, you have peace of mind regarding major running (Overhead) costs since we provide all the basics free of charge.</p>
       </div>
 
-      <div id="packages" className="aboutus-container">
-        <Link to="/virtualoffice" style={{ width: "150px", height: "150px" }}>
+      <div id="packages" className="aboutus-container" >
+        <Link to="/virtualoffice" style={{ width: "150px", height: "150px" }} data-aos="fade-up-left" data-aos-duration="600">
           <img src="digital-assistant.png" alt="" />
           <h5>Virtual Office</h5>
         </Link>
 
-        <Link to="/dedicateddesk" style={{ width: "150px", height: "150px" }}>
+        <Link to="/dedicateddesk" style={{ width: "150px", height: "150px" }} data-aos="fade-up-left" data-aos-duration="700">
           <img src="workspace.png" alt="" />
           <h5>Dedicated Desk</h5>
         </Link>
 
-        <Link to="/startup" style={{ width: "150px", height: "150px" }}>
+        <Link to="/startup" style={{ width: "150px", height: "150px" }} data-aos="fade-up-left" data-aos-duration="800">
           <img src="idea.png" alt="" />
           <h5>Startup</h5>
         </Link>
 
-        <Link to="/startupplus" style={{ width: "150px", height: "150px" }}>
+        <Link to="/startupplus" style={{ width: "150px", height: "150px" }} data-aos="fade-up-left" data-aos-duration="900">
           <img src="startup.png" alt="" />
           <h5>Startup+</h5>
         </Link>
 
-        <Link to="/smallbusiness" style={{ width: "150px", height: "150px" }}>
+        <Link to="/smallbusiness" style={{ width: "150px", height: "150px" }} data-aos="fade-up-left" data-aos-duration="1000">
           <img src="briefcase.png" alt="" />
           <h5>Small Business</h5>
         </Link>
 
-        <Link to="/smallbusinessplus" style={{ width: "150px", height: "150px" }}>
+        <Link to="/smallbusinessplus" style={{ width: "150px", height: "150px" }} data-aos="fade-up-left" data-aos-duration="1100">
           <img src="graph.png" alt="" />
           <h5>Small Business+</h5>
         </Link>

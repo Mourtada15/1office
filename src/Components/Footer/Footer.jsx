@@ -4,8 +4,8 @@ const Footer = () => {
 
   return (
     <>
-      <div id="contact" className="footer">
-        <div>
+      <div className="footer">
+        {/* <div>
           <h5 className="footer-about-us-header"><b>About Us</b></h5>
           <ul className="footer-about-us">
             <li><a href="#">About One Office</a></li>
@@ -13,6 +13,25 @@ const Footer = () => {
             <li><a href="#">Privacy Policy</a></li>
             <li><a href="#">FAQs</a></li>
           </ul>
+        </div> */}
+
+        <div>
+          <h5 className="footer-about-us-header"><b>Address</b></h5>
+          <p>One Office (1O)</p>
+
+          <p className="footer-about-us">
+            <div className="footer-about-us-a">
+              <span>Hamra, Commodore, Barouk St</span>
+              <span>Chatila Building, 2nd Floor</span>
+              <span>PO Box: 13-5300 Chouran</span>
+              <span>Postal code: 1102-2802</span>
+              <span>Beirut - Lebanon</span>
+            </div>
+            <div id="contact">
+              <span>Phone: +961 1 748333</span>
+              <p>email: <a href="mailto:info@1office.space">info@1office.space</a></p>
+            </div>
+          </p>
         </div>
 
         <div className="footer-social" >

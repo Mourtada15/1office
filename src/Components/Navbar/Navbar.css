@@ -2,6 +2,7 @@
   background-image: url('../../../public/20190731_132644.jpg');
   background-size: contain;
   background-position: center;
+  /* background-repeat: no-repeat;     */
   height: 78.5vh; 
   width: 100%;
   align-items: start;

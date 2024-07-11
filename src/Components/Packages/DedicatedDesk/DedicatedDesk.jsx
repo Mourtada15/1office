@@ -8,7 +8,7 @@ const DedicatedDesk = () => {
     <>
       <Navbar />
       <div className="virtual-office-wrapper d-flex flex-column gap-4">
-        <div className="d-flex flex-column gap-2" style={{width: "50%", margin: "auto"}} >
+        <div className="d-flex flex-column gap-2 virtual-office-wrapper-inner" style={{width: "50%", margin: "auto"}} data-aos="zoom-in-up">
           <h1>Dedicated Desk</h1>
           <p>Get your dedicated workspace no matter when you visit 1Office. In case you prefer operating from a
           specific desk, have your private drawers and locker; we recommend the dedicated desk option.</p>
@@ -33,12 +33,12 @@ const DedicatedDesk = () => {
             <li>Lockable & secure Drawers and a locker for your dedicated use</li>
           </ul>
 
-          <h4>The Package is at US$ 300.00 per month</h4>
+          <h4>The Package is at $300 per month</h4>
 
         </div>
 
-        <div className="d-flex flex-column gap-2 tizz">
-          <h5>Reserve your place now!</h5>
+        <div className="d-flex flex-column gap-2 vo-info">
+          <h5>For more details!</h5>
           <div className=" d-flex gap-4">
             <a href="https://wa.me/+96170100094"><img style={{ width: "40px" }} src="whatsapp.png" alt="" /></a>
             <a href="mailto:info@oneoffice.world"><img style={{ width: "40px" }} src="email.png" alt="" /></a>

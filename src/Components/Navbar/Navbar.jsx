@@ -13,7 +13,7 @@ const NavbarMenu = () => {
 
 
   return (
-    <Navbar expand="lg" className={pathname === '/' ? "navbar-bground" : "navbar-bground-vo"} style={{display: 'flex', alignItems: "flex-start", paddingTop: "0"}}>
+    <Navbar expand="lg" className={pathname === '/' ? "navbar-bground" : "navbar-bground-vo"} style={{display: 'flex', alignItems: "flex-start", paddingTop: "0"}} >
       <Container fluid>
         <Navbar.Brand href="#"><img src="/1O_Logo_Draft2.png" alt="logo" width={'100px'}/></Navbar.Brand>
         <Navbar.Toggle style={{backgroundColor: "unset"}} aria-controls="navbarScroll" />
@@ -34,7 +34,7 @@ const NavbarMenu = () => {
                 Something else here
               </NavDropdown.Item>
             </NavDropdown> */}
-            <Nav.Link href="#packages" >PACKAGES</Nav.Link>
+            <Nav.Link href="/#packages" >PACKAGES</Nav.Link>
             <Nav.Link href="#gallery" >GALLERY</Nav.Link>
             <Nav.Link href="#contact" >CONTACT US</Nav.Link>
           </Nav>

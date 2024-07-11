@@ -40,6 +40,10 @@
   grid-template-columns: 1fr 1fr;
   gap: 0 4rem;
 }
+ .footer-about-us-a {
+  display: flex;
+  flex-direction: column;
+}
 .footer-about-us a {
   text-decoration: none;
   color: inherit;

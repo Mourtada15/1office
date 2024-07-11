@@ -8,7 +8,7 @@ const StartUpPlus = () => {
     <>
       <Navbar />
       <div className="virtual-office-wrapper d-flex flex-column gap-4">
-        <div className="d-flex flex-column gap-2" style={{ width: "50%", margin: "auto" }} >
+        <div className="d-flex flex-column gap-2 virtual-office-wrapper-inner" style={{ width: "50%", margin: "auto" }} data-aos="zoom-in-up">
           <h1>StartUp+</h1>
 
           <p>This is a very interesting option for a group of professionals who are working together as one entity. It is for those in
@@ -40,12 +40,12 @@ const StartUpPlus = () => {
               1-year advanced payment</li>
           </ul>
 
-          <h4>The Package is at US$ 1,000.00 per month</h4>
+          <h4>The Package is at $1,000 per month</h4>
 
         </div>
 
-        <div className="d-flex flex-column gap-2 tizz">
-          <h5>Reserve your place now!</h5>
+        <div className="d-flex flex-column gap-2 vo-info">
+          <h5>For more details!</h5>
           <div className=" d-flex gap-4">
             <a href="https://wa.me/+96170100094"><img style={{ width: "40px" }} src="whatsapp.png" alt="" /></a>
             <a href="mailto:info@oneoffice.world"><img style={{ width: "40px" }} src="email.png" alt="" /></a>

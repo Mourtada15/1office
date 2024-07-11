@@ -1,6 +1,6 @@
 .virtual-office-wrapper {
-    /* height: 74vh; */
     width: 80%;
+    /* width: 100%; */
     margin: auto;
     padding: 2rem 0 2rem 0;
     color: #2f3f92;
@@ -11,7 +11,34 @@
     height: unset; 
   }
 
-  .tizz {
+  .vo-info {
    display: flex;
    align-items: end;
   }
+
+.virtual-office-wrapper-vo {
+    width: 80%;
+    margin: auto;
+    padding: 2rem 0 2rem 0;
+    color: #2f3f92;
+}
+
+@media (max-width: 1200px) {
+    .virtual-office-wrapper-inner {
+        width: 60% !important;
+        /* background-color: red; */
+    }
+}
+
+@media (max-width: 600px) {
+    .virtual-office-wrapper-inner {
+        width: 100% !important;
+        /* background-color: red; */
+    }
+}
+
+@media (min-height: 1000px) or (max-width: 200px) {
+    .virtual-office-wrapper-vo {
+        height: 74vh;
+    }
+}
