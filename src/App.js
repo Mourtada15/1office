@@ -9,11 +9,10 @@ import SmallBusiness from './Components/Packages/SmallBusiness/SmallBusiness';
 import SmallBusinessPlus from './Components/Packages/SmallBusinessPlus/SmallBusinessPlus';
 import AOS from 'aos';
 import ContactUs from './Pages/ContactUs/ContactUs';
-import emailjs from 'emailjs-com';
+
 
 function App() {
   AOS.init();
-  emailjs.init('KtvbtfVSIePHjDZjf');
 
   return (
     <Router>
